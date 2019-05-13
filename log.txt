@@ -1,0 +1,40 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SpringMvcUser Hibernate Webapp 0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> jetty-maven-plugin:9.2.11.v20150529:run (default-cli) @ SpringMvcHibernate >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ SpringMvcHibernate ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ SpringMvcHibernate ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ SpringMvcHibernate ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/auser/Documents/folder_to_share/springmvc-booksujecthibernate/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ SpringMvcHibernate ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< jetty-maven-plugin:9.2.11.v20150529:run (default-cli) @ SpringMvcHibernate <<<
+[INFO] 
+[INFO] --- jetty-maven-plugin:9.2.11.v20150529:run (default-cli) @ SpringMvcHibernate ---
+[INFO] Configuring Jetty for project: SpringMvcUser Hibernate Webapp
+[INFO] webAppSourceDirectory not set. Trying src/main/webapp
+[INFO] Reload Mechanic: automatic
+[INFO] Classes = /home/auser/Documents/folder_to_share/springmvc-booksujecthibernate/target/classes
+[INFO] Context path = /spring-mvc-form
+[INFO] Tmp directory = /home/auser/Documents/folder_to_share/springmvc-booksujecthibernate/target/tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = file:/home/auser/Documents/folder_to_share/springmvc-booksujecthibernate/src/main/webapp/WEB-INF/web.xml
+[INFO] Webapp directory = /home/auser/Documents/folder_to_share/springmvc-booksujecthibernate/src/main/webapp
+[INFO] Started Jetty Server
+[INFO] Starting scanner at interval of 10 seconds.
+[INFO] Jetty server exiting.
